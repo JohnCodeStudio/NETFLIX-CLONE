@@ -7,6 +7,7 @@
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 ::selection {
@@ -385,6 +386,7 @@ a:active {
     font-weight: 700;
     position: relative;
     top: -3vw;
+    filter: invert(1);
 }
 
 .bar.hidden {
@@ -396,7 +398,7 @@ a:active {
 
 .bar:hover {
     cursor: pointer;
-    background-color: #ffffff71;
+    background-color: #0c0c0c71;
 }
 
 .bar svg {
